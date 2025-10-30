@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;   
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(44, 44, 44, 0.19);
+}
+h1{
+    color: rgb(68, 68, 68);
+    margin: 1rem;
+    font-size:  2rem;
+}
+img.acc{
+    width: 12rem;
+}
+img.aseguradora{
+    padding-top: 6rem;
+  width: 20%;
+}
+.seg{
+    
+    text-align: right;
+}

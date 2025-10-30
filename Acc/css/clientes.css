@@ -1,0 +1,118 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;   
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(44, 44, 44, 0.19);
+}
+h1{
+    color: rgb(68, 68, 68);
+    margin: 1rem;
+    font-size:  2rem;
+}
+img.acc{
+    width: 12rem;
+}
+h2.titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(32, 32, 32);
+}
+img.autos{
+    width: 15rem;
+}
+.pantalla{
+    margin: 20px;
+    height:auto;
+    border-radius: 8px;
+    border-style: inset;
+    border-color: rgb(109, 109, 109);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    background-color: rgba(80, 80, 80, 0.938);
+     
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;   
+}
+.operaciones{
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 1.5rem;
+}
+@media (max-width: 768px){
+    .datos{
+        display: table-row;
+        justify-content: space-between;
+        font-size: 1.5rem;   
+    }
+    
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    width: 90px;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgb(5, 34, 199);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(25, 0, 255, 0.2), 0 6px 20px 0 rgba(0, 4, 255, 0.19);
+    
+    text-align: center;
+}
+.seguro{ 
+    display: flex;
+    align-items: stretch;
+}
+    
+ .circulo {
+    width: 1.8rem;
+    height: 1.8rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #00ff00a2;
+    box-shadow: 0 8px 16px 0 rgba(53, 255, 3, 0.2), 0 6px 20px 0 rgba(1, 255, 1, 0.19);
+    
+}
+.red {
+    width: 1.8rem;
+    height: 1.8rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ff0000a2;
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    
+}
+h3{
+    color: #fff;
+}
+h3.seguro{
+    font-size: 1.8rem;
+    margin: 2rem;
+    color: rgb(241, 241, 241);
+    align-items: center;
+}
+h5{
+    text-align:justify;
+    font-size: 1.5rem;
+}
+.instrucciones{
+    margin: 3rem;
+    background-color: rgb(202, 202, 202);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.contenedor{
+    background-color: rgb(255, 255, 255);
+}
